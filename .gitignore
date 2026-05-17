@@ -1,0 +1,26 @@
+# Ignore downloaded archive files and other large artifacts
+*.zip
+*.tar.gz
+*.tgz
+*.gz
+*.rar
+*.7z
+*.jpeg
+
+# Ignore dataset archives stored in data/
+/data/*.zip
+/data/*.tar.gz
+/data/*.tgz
+/data/*.gz
+/data/*.rar
+/data/*.7z
+/data/*.jpeg
+
+# Ignore all data files and datasets
+/data/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
